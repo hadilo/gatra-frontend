@@ -1,0 +1,21 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Editor dan IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Log dan berkas sementara
+*.log
+npm-debug.log*
+tmp/
+*.tmp
+
+# Tooling yang tidak dipakai repo ini, tetap diabaikan bila muncul
+node_modules/
+.venv/
+__pycache__/
