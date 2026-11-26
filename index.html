@@ -1,0 +1,230 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>GATRA — Game Kartu UNO untuk Intervensi Psikofinansial Remaja</title>
+<meta name="description" content="GATRA adalah game kartu UNO modifikasi untuk penelitian intervensi psikofinansial remaja: Kartu Misteri, Gacha, Saldo, dan Evaluasi. Masih tahap pilot, belum tersedia di Play Store.">
+<link rel="canonical" href="https://hadilo.github.io/gatra-frontend/">
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="GATRA">
+<meta property="og:locale" content="id_ID">
+<meta property="og:title" content="GATRA — Game Kartu UNO untuk Intervensi Psikofinansial Remaja">
+<meta property="og:description" content="Kartu Misteri membuka Gacha, Gacha menggerus atau menambah Saldo, dan Evaluasi menunjukkan akibatnya. Sebuah game kartu untuk penelitian intervensi psikofinansial remaja.">
+<meta property="og:url" content="https://hadilo.github.io/gatra-frontend/">
+<meta property="og:image" content="https://hadilo.github.io/gatra-frontend/assets/img/Banner.png">
+<meta property="og:image:alt" content="Banner GATRA">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="GATRA — Game Kartu UNO untuk Intervensi Psikofinansial Remaja">
+<meta name="twitter:description" content="Kartu Misteri, Gacha, Saldo, dan Evaluasi dalam satu Sesi. Tahap pilot, belum tersedia di Play Store.">
+<meta name="twitter:image" content="https://hadilo.github.io/gatra-frontend/assets/img/Banner.png">
+
+<link rel="icon" href="assets/img/favicon.png" type="image/png">
+<link rel="apple-touch-icon" href="assets/img/favicon.png">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Langsung ke konten</a>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="index.html">
+      <span class="brand-mark" aria-hidden="true">G</span>
+      GATRA
+    </a>
+    <nav class="site-nav" aria-label="Navigasi utama">
+      <ul>
+        <li><a href="#cara-kerja">Cara kerja</a></li>
+        <li><a href="#riset">Riset</a></li>
+        <li><a href="#pilot">Ikut pilot</a></li>
+        <li><a href="privacy.html">Privasi</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+  <section class="hero" aria-labelledby="judul-utama">
+    <div class="wrap hero-grid">
+      <div>
+        <p class="badge">Tahap pilot &middot; belum tersedia di Play Store</p>
+        <h1 id="judul-utama">GATRA &mdash; game kartu UNO modifikasi untuk <span class="accent">intervensi psikofinansial remaja</span></h1>
+        <p class="hero-lede">Dalam satu Sesi, Saldo ada di tanganmu: setiap Kartu Misteri membuka pilihan Gacha, dan setiap pilihan langsung terasa di Saldo sampai layar Evaluasi.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#pilot">Ikut pilot GATRA</a>
+          <a class="btn btn-ghost" href="#cara-kerja">Lihat cara kerjanya</a>
+        </div>
+
+        <ul class="stats">
+          <li>
+            <span class="value">100</span>
+            <span class="label">koin Saldo awal</span>
+          </li>
+          <li>
+            <span class="value">118</span>
+            <span class="label">kartu dalam deck</span>
+          </li>
+          <li>
+            <span class="value">10</span>
+            <span class="label">Kartu Misteri</span>
+          </li>
+          <li>
+            <span class="value">7</span>
+            <span class="label">kartu di tangan</span>
+          </li>
+        </ul>
+      </div>
+
+      <figure class="hero-art">
+        <img src="assets/img/Banner.png" width="630" height="500"
+             alt="Banner GATRA, gambar header yang tampil di aplikasi permainan">
+      </figure>
+    </div>
+  </section>
+
+  <section class="section" id="cara-kerja" aria-labelledby="judul-cara-kerja">
+    <div class="wrap">
+      <p class="eyebrow">Cara kerja</p>
+      <h2 id="judul-cara-kerja">Satu Sesi, empat langkah yang berurutan</h2>
+      <p class="lede">GATRA memakai aturan UNO yang sudah dikenal, lalu menambahkan satu lapisan: keputusan yang punya harga. Urutannya selalu Kartu Misteri, Gacha, Saldo, lalu Evaluasi.</p>
+
+      <figure class="table-shot">
+        <img class="table-shot__felt" src="assets/img/Table_0.png" width="1280" height="720"
+             alt="" aria-hidden="true" loading="lazy" decoding="async">
+        <img class="table-shot__card table-shot__card--back" src="assets/img/Deck.png" width="388" height="562"
+             alt="Punggung kartu GATRA" loading="lazy" decoding="async">
+        <img class="table-shot__card table-shot__card--mystery" src="assets/img/Mystery_Card.png" width="388" height="562"
+             alt="Kartu Misteri GATRA" loading="lazy" decoding="async">
+        <figcaption>Kartu Misteri dan tumpukan kartu di atas meja permainan GATRA.</figcaption>
+      </figure>
+
+      <ol class="steps">
+        <li class="step">
+          <span class="step-num" aria-hidden="true">1</span>
+          <h3>Kartu Misteri</h3>
+          <p>Deck berisi 118 kartu, termasuk 10 Kartu Misteri. Kartu ini bisa dimainkan kapan saja tanpa syarat warna: pilih warna, lalu Gacha terbuka.</p>
+          <span class="step-tag">10 Kartu Misteri</span>
+        </li>
+        <li class="step">
+          <span class="step-num" aria-hidden="true">2</span>
+          <h3>Gacha</h3>
+          <p>Roll gratis memberi satu dari 10 efek dengan peluang sama. Roll berbayar memakai 10 efek yang semuanya menguntungkan pemilik kartu, dengan bobot berbeda.</p>
+          <span class="step-tag">Harga 10&ndash;40% Saldo</span>
+        </li>
+        <li class="step">
+          <span class="step-num" aria-hidden="true">3</span>
+          <h3>Saldo</h3>
+          <p>Pemain dan Bot masing-masing mulai dengan 100 koin. Roll berbayar memotong Saldo saat itu: dibulatkan ke bawah, minimal 1 koin, tidak pernah melebihi Saldo.</p>
+          <span class="step-tag">Saldo pemain habis = Sesi berakhir</span>
+        </li>
+        <li class="step">
+          <span class="step-num" aria-hidden="true">4</span>
+          <h3>Evaluasi</h3>
+          <p>Sesi ditutup dengan grafik Saldo, statistik, distribusi pool, dan tiga paragraf catatan dari AI Coach. Tanpa jaringan, catatan memakai template.</p>
+          <span class="step-tag">Tetap jalan offline</span>
+        </li>
+      </ol>
+
+      <aside class="callout">
+        <h3>Game tetap jalan tanpa jaringan</h3>
+        <p>Backend hanya menambah variasi: keputusan Bot dari model dan catatan Evaluasi yang lebih luwes. Tanpa koneksi, Bot bermain dengan aturan rule-based dan Evaluasi memakai template. Sesi tidak menunggu jaringan untuk bisa dimainkan atau diselesaikan.</p>
+      </aside>
+    </div>
+  </section>
+
+  <section class="section section--paper" id="riset" aria-labelledby="judul-riset">
+    <div class="wrap split">
+      <div>
+        <p class="eyebrow">Konteks penelitian</p>
+        <h2 id="judul-riset">Dibuat sebagai instrumen penelitian, bukan peluncuran produk</h2>
+        <p>GATRA dikembangkan oleh Tim Peneliti GATRA di Lab Media Game dan Mobile, Fakultas Ilmu Komputer, Universitas Brawijaya. Penelitiannya berfokus pada intervensi psikofinansial remaja, dan GATRA adalah media interaksi yang dipakai di dalamnya.</p>
+        <p>Karena itu GATRA belum dirilis sebagai produk umum: belum ada di Play Store, belum ada pembelian, dan belum ada iklan. Build pilot dipasang langsung ke perangkat peserta oleh tim, bukan lewat toko aplikasi.</p>
+        <ul class="facts">
+          <li><strong>Peserta.</strong> Pilot melibatkan siswa SMP dengan izin sekolah dan persetujuan orang tua atau wali.</li>
+          <li><strong>Data.</strong> Tanpa nama, email, lokasi, kontak, atau ID perangkat. Rincian payload dan retensinya ada di <a href="privacy.html">kebijakan privasi</a>.</li>
+          <li><strong>Hasil.</strong> Situs ini menjelaskan produk dan praktik data; situs ini tidak memuat klaim hasil penelitian.</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3>Identitas operator</h3>
+        <p class="identity">
+          <strong>Tim Peneliti GATRA</strong>
+          Lab Media Game dan Mobile<br>
+          Fakultas Ilmu Komputer<br>
+          Universitas Brawijaya
+        </p>
+        <p><a class="card-link" href="privacy.html">Baca kebijakan privasi GATRA</a></p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--dark" id="pilot" aria-labelledby="judul-pilot">
+    <div class="wrap">
+      <p class="eyebrow">Ikut pilot</p>
+      <h2 id="judul-pilot">Bawa GATRA ke kelas atau komunitasmu</h2>
+      <p class="lede">Pilot berjalan terbatas dan didampingi tim. Kami mencari sekolah, guru, dan komunitas yang ingin mencoba GATRA bersama siswa SMP, serta pihak yang ingin menilai kesiapan instrumen sebelum rilis.</p>
+
+      <div class="pilot-box">
+        <h3>Yang perlu disiapkan</h3>
+        <p>Satu perangkat Android per peserta, ruang kelas atau pendampingan guru, dan izin sekolah beserta persetujuan orang tua atau wali. Tim menyediakan build pilot dan lembar izin.</p>
+        <p>Saat mengirim email, sertakan nama sekolah atau komunitas dan perkiraan jumlah peserta agar tim bisa menyiapkan kebutuhan pilot.</p>
+
+        <p>
+          <a class="btn btn-primary" href="mailto:kontak@example.ac.id?subject=Pilot%20GATRA" aria-describedby="catatan-email">Kirim email ke tim GATRA</a>
+        </p>
+
+        <!-- TODO(contact-email): ganti dengan alamat nyata, lihat tiket 12 -->
+        <div class="placeholder" id="catatan-email">
+          <span><strong>Catatan:</strong> alamat <code>kontak@example.ac.id</code> masih</span>
+          <span class="tag">PLACEHOLDER</span>
+          <span>&mdash; bukan alamat aktif. Alamat nyata dipasang sebelum rilis pilot (lihat tiket 12).</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div>
+      <h2>Operator</h2>
+      <p class="identity">
+        <strong>Tim Peneliti GATRA</strong>
+        Lab Media Game dan Mobile<br>
+        Fakultas Ilmu Komputer<br>
+        Universitas Brawijaya
+      </p>
+      <p>GATRA adalah game kartu UNO modifikasi untuk penelitian intervensi psikofinansial remaja. Tahap pilot, belum tersedia di Play Store.</p>
+    </div>
+
+    <nav aria-label="Tautan kaki halaman">
+      <h2>Tautan</h2>
+      <ul class="footer-links">
+        <li><a href="index.html">Beranda</a></li>
+        <li><a href="#cara-kerja">Cara kerja</a></li>
+        <li><a href="#riset">Konteks penelitian</a></li>
+        <li><a href="#pilot">Ikut pilot</a></li>
+      </ul>
+    </nav>
+
+    <div>
+      <h2>Privasi</h2>
+      <p>Tidak ada pelacak, cookie, atau skrip pihak ketiga di situs ini. Halaman ini tidak memuat analytics.</p>
+      <ul class="footer-links">
+        <li><a href="privacy.html">Kebijakan privasi</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-meta">
+      <p>&copy; 2026 Tim Peneliti GATRA. Situs statis tanpa build step.</p>
+      <p>GATRA belum tersedia di Play Store. Build pilot dipasang langsung oleh tim peneliti.</p>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
